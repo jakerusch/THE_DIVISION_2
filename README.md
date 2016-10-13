@@ -13,4 +13,6 @@ Bluetooth icon when connected
 
 Vibrates on bluetooth disconnect and displays bluetooth disconnect icon
 
+Always 12 hour time
+
 ![alt text](download.png)
