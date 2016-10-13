@@ -232,6 +232,20 @@ static void main_window_load(Window *window) {
 static void main_window_unload(Window *window) {
   layer_destroy(s_circle);
   layer_destroy(s_seconds_circle);
+  layer_destroy(s_battery_layer);
+  gbitmap_destroy(s_icon);
+  gbitmap_destroy(s_lightening);
+  gbitmap_destroy(s_bluetooth);
+  bitmap_layer_destroy(s_icon_layer);
+  bitmap_layer_destroy(s_lightening_layer);
+  bitmap_layer_destroy(s_bluetooth_layer);
+  text_layer_destroy(s_date_layer);
+  text_layer_destroy(s_colon_layer);
+  text_layer_destroy(s_hour_layer);
+  text_layer_destroy(s_minute_layer);
+  text_layer_destroy(s_ampm_layer);
+  text_layer_destroy(s_temp_layer);
+  text_layer_destroy(s_city_layer);
 }
 
 static void update_time() {

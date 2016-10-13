@@ -1,4 +1,4 @@
-var myAPIKey = '';
+var myAPIKey = '287396dabce7a142ea95111fe9cc091c';
 
 var xhrRequest = function (url, type, callback) {
   var xhr = new XMLHttpRequest();
@@ -10,6 +10,8 @@ var xhrRequest = function (url, type, callback) {
 };
 
 function locationSuccess(pos) {
+  pos.coords.latitude = '29.4259671';
+  pos.coords.longitude = '-98.4883306';
   // Construct URL
   var weatherUrl = "http://api.openweathermap.org/data/2.5/weather?lat=" +
       pos.coords.latitude + "&lon=" + pos.coords.longitude + '&appid=' + myAPIKey + '&units=imperial';  
