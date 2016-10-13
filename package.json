@@ -1,0 +1,83 @@
+{
+    "author": "jacob.rusch@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "the-division-2",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "The Division 2",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "KEY_TEMP",
+            "KEY_CITY"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/DIVISION_ICON_25x25.png",
+                    "menuIcon": true,
+                    "name": "DIVISION_ICON_25x25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BLUETOOTH_WHITE_ICON.png",
+                    "name": "BLUETOOTH_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/LIGHTENING_WHITE_ICON",
+                    "name": "LIGHTENING_WHITE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/DIVISION_ICON_BLACK.png",
+                    "name": "DIVISION_ICON_BLACK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/BORDA_FONT",
+                    "name": "BORDA_FONT_36",
+                    "targetPlatforms": null,
+                    "trackingAdjust": -2,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/BORDA_BOLD_FONT",
+                    "name": "BORDA_BOLD_FONT_10",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/BORDA_BOLD_FONT",
+                    "name": "BORDA_BOLD_FONT_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[:]",
+                    "file": "fonts/BORDA_BOLD_FONT",
+                    "name": "BORDA_BOLD_FONT_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
+        "uuid": "6b644821-fa59-4f88-9a13-0fced8452c56",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
