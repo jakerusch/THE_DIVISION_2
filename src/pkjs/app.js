@@ -10,8 +10,6 @@ var xhrRequest = function (url, type, callback) {
 };
 
 function locationSuccess(pos) {
-//   pos.coords.latitude = '29.553968';
-//   pos.coords.longitude = '-98.6398737';
   // Construct URL
   var weatherUrl = "http://api.openweathermap.org/data/2.5/weather?lat=" +
       pos.coords.latitude + "&lon=" + pos.coords.longitude + '&appid=' + myAPIKey + '&units=imperial';  
